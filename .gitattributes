@@ -1,3 +1,2 @@
 Data/raw_analyst_ratings.csv filter=lfs diff=lfs merge=lfs -text
 Data/processed_analyst_ratings.csv filter=lfs diff=lfs merge=lfs -text
-Data/.ipynb_checkpoints/processed_analyst_ratings-checkpoint.csv filter=lfs diff=lfs merge=lfs -text
