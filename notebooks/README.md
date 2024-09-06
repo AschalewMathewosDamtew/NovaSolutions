@@ -1,26 +1,20 @@
 # Project Notebooks
 
-This repository contains Jupyter notebooks for various data analysis tasks. Each notebook focuses on a specific aspect of the analysis pipeline.
+This directory contains Jupyter notebooks for various data analysis tasks. Each notebook is designed to explore different aspects of financial and news data.
 
-## Notebooks
+## Notebooks Overview
 
 ### 01_Descriptive_Statistics.ipynb
 
 Analyzes news article data, focusing on:
-
-- **Headline Lengths**: Computes and displays descriptive statistics.
-- **Publisher Analysis**: Lists the top 10 publishers by article count in a formatted table.
-- **Date Parsing**: Converts timestamps to UTC and extracts day-of-week and date components.
-- **Visualizations**: Includes a bar plot for publication frequency by day and a line chart for trends over time.
-
-#### Usage
-
-1. Place your dataset in `../Data/raw_analyst_ratings.csv`.
-2. Run the notebook for insights and visualizations.
+- **Headline Lengths**: Computes descriptive statistics.
+- **Publisher Analysis**: Lists top 10 publishers by article count.
+- **Date Parsing**: Converts timestamps to UTC and extracts date components.
+- **Visualizations**: Bar plot for publication frequency and line chart for trends.
 
 ### 02_Text_Analysis(Sentiment_analysis_&_Topic_Modeling).ipynb
 
-Conducts sentiment analysis and topic modeling on text data.
+Performs sentiment analysis and topic modeling on text data.
 
 ### 03_Technical_Indicators_with_TALib.ipynb
 
@@ -32,30 +26,16 @@ Visualizes stock data and technical indicators.
 
 ### 05_Sentiment_Analysis_of_News.ipynb
 
-Analyzes sentiment of news articles related to financial markets.
+Analyzes sentiment of financial news articles.
 
 ### 06_Correlation_Analysis_between_Sentiment_and_Stock_Returns.ipynb
 
-Examines correlations between sentiment and stock returns.
+Examines correlations between news sentiment and stock returns.
 
-## Getting Started
+## Usage
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/AschalewMathewosDamtew/NovaSolutions.git
-    ```
-2. Navigate to the notebooks directory:
-    ```bash
-    cd NovaSolutions/notebooks
-    ```
-3. Install the required packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
-4. Open and run the notebooks using Jupyter:
-    ```bash
-    jupyter notebook
-    ```
+1. Place your dataset in the `Data/` directory.
+2. Open and run the notebooks using Jupyter.
 
 ## Requirements
 
