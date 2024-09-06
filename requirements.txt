@@ -1,0 +1,7 @@
+pandas
+matplotlib
+python-dateutil
+tabulate
+TA-Lib
+nltk
+scikit-learn
